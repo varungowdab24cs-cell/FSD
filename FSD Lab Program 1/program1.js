@@ -46,6 +46,6 @@ let total = subtotal - discount;
 console.log("Subtotal : Rs.", subtotal.toFixed(2)); 
 console.log("Bulk discount (10%) : Rs.", discount.toFixed(2)); 
 console.log("Final payable amount : Rs.", total.toFixed(2));
-
+console.log("Final payable amount (rounded) : Rs.", Math.round(total));
 alert("Final Payable Amount : Rs. " + total.toFixed(2)); 
 
